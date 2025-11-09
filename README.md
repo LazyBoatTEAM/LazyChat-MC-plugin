@@ -1,5 +1,6 @@
 # LazyChat
 This is just another lazy-plugin which can made your chat experience better
+![img.png](img.png)
 ## What this plugin adds?
 Only fully configurable chat-system with formating through MiniMessage
 

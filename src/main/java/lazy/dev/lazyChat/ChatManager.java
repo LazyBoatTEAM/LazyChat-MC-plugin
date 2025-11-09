@@ -5,11 +5,9 @@ import net.kyori.adventure.text.minimessage.MiniMessage;
 import org.bukkit.entity.Player;
 
 public class ChatManager {
-    private final LazyChat plugin;
-    private LazyChatConfig config;
+    private final LazyChatConfig config;
 
     public ChatManager(LazyChat plugin) {
-        this.plugin = plugin;
         this.config = new LazyChatConfig(plugin);
     }
 

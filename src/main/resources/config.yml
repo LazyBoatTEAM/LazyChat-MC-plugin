@@ -1,7 +1,7 @@
 # Local chat radius
 local-chat-radius: 100
 
-# Prefix for global chat
+# Prefix for global chat (By default and most popular - "!")
 global-chat-prefix: "!"
 
 # Example for global message. {player} - player-nickname, {message} - message

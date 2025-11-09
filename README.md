@@ -21,7 +21,7 @@ Only fully configurable chat-system with formating through MiniMessage
 
 
 # Do it support LuckyPerms prefixes?
-Yes, this is support LuckyPerms from v0.3. For format prefix you need use MM formating, like `<gold><bold>prefix</bold></gold>`. Legacy formating doesn't support anyway.
+At this moment you can not use LuckyPerms prefixes, but at this moment I'm work to add support of LP prefixes. For format prefix you need use MM formating, like `<gold><bold>prefix</bold></gold>`. Legacy formating doesn't support anyway.
 
 # What is "MiniMessage"?
 This is a formating api which provided from Adventure api (Or just Paper feature)

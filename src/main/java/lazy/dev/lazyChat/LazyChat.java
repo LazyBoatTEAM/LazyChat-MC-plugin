@@ -8,7 +8,6 @@ import org.bukkit.plugin.java.JavaPlugin;
 public final class LazyChat extends JavaPlugin {
     public static LazyChat instance;
     private ChatUtility chatManager;
-    public Commands commands;
 
     @Override
     public void onEnable() {
@@ -19,7 +18,7 @@ public final class LazyChat extends JavaPlugin {
         this.chatManager = new ChatUtility(this);
 
         getServer().getPluginManager().registerEvents(new lcManager(this), this);
-        commands.register();
+        new Commands(this).register();
     }
     public ChatUtility getChatUtility() {
         return chatManager;

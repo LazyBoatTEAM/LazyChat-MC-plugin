@@ -8,7 +8,7 @@ import net.kyori.adventure.text.Component;
 import net.kyori.adventure.text.format.NamedTextColor;
 import net.kyori.adventure.text.minimessage.MiniMessage;
 
-public abstract class Commands implements CommandExecutor {
+public class Commands {
     private final LazyChat plugin;
     public final MiniMessage mm;
     public Commands(LazyChat plugin) {

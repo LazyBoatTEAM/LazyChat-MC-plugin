@@ -1,6 +1,9 @@
 # LazyChat
 This is just another lazy-plugin which can made your chat experience better
 ![img.png](img.png)
+
+## Also available on SpigotMC - [LazyChat on SpigotMC](https://www.spigotmc.org/resources/lazychat.130059/)
+
 ## What this plugin adds?
 Only fully configurable chat-system with formating through MiniMessage
 

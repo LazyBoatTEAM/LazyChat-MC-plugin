@@ -2,12 +2,13 @@ package lazy.dev.lazyChat;
 
 import lazy.dev.lazyChat.chatSystem.ChatUtility;
 import lazy.dev.lazyChat.chatSystem.lcManager;
-import lazy.dev.lazyChat.commands.LazyChatCommand;
+import lazy.dev.lazyChat.commands.Commands;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class LazyChat extends JavaPlugin {
-    private static LazyChat instance;
+    public static LazyChat instance;
     private ChatUtility chatManager;
+    public Commands commands;
 
     @Override
     public void onEnable() {
@@ -18,11 +19,9 @@ public final class LazyChat extends JavaPlugin {
         this.chatManager = new ChatUtility(this);
 
         getServer().getPluginManager().registerEvents(new lcManager(this), this);
-
-        getCommand("l-chat-rl").setExecutor(new LazyChatCommand(this));
-
+        commands.register();
     }
-    public ChatUtility getChatManager() {
+    public ChatUtility getChatUtility() {
         return chatManager;
     }
     public void reloadPluginConfig() {

@@ -1,5 +1,5 @@
 name: LazyChat
-version: '0.3'
+version: '0.4'
 main: lazy.dev.lazyChat.LazyChat
 api-version: '1.21'
 authors: [ LazyCato0o ]
@@ -9,10 +9,5 @@ permissions:
   l-chat.reload:
     description: Allow to reload LazyChat config
     default: op
-commands:
-  l-chat-rl:
-    description: Reloads an a config for LazyChat.
-    usage: /<command>
-    permission: l-chat.reload
 
 depend: [CommandAPI]

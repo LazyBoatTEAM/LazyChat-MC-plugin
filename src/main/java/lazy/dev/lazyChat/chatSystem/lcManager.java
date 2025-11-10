@@ -14,7 +14,7 @@ public class lcManager implements Listener {
 
     public lcManager(LazyChat plugin) {
         this.plugin = plugin;
-        this.chatUtility = plugin.getChatManager();
+        this.chatUtility = plugin.getChatUtility();
     }
 
     @EventHandler

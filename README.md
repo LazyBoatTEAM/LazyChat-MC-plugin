@@ -30,7 +30,7 @@ This is a formating api which provided from Adventure api (Or just Paper feature
 # How to build it?
 
 ### In Inteljl IDEA
-click at ![img_1.png](img_1.png) icon after on ![img_2.png](img_2.png) and at last on "package"
+`click at maven icon, after on "lifecycle" and on "package"`
 ### In CLI
 `just go to project folder and open it with your command-line, after type "mvn package"`
 

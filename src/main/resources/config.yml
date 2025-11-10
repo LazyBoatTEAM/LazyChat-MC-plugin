@@ -9,6 +9,6 @@ enable-console-logging: true
 
 # Messages examples. Placeholders: {player} - player-nickname, {message} - message, {prefix} - prefix from LuckyPerms
 # Example for global message.
-global-chat-format: "<dark_gray>[<green>G</green>]</dark_gray> {prefix} <gold>{player}</gold> <gray>>>></gray> <white>{message}</white>"
+global-chat-format: "<dark_gray>|<green>G</green>|</dark_gray> {prefix} <gold>{player}</gold> <gray>>>></gray> <white>{message}</white>"
 # Example for local message.
-local-chat-format: "<dark_gray>[<blue>L</blue>]</dark_gray> {prefix} <gold>{player}</gold> <gray>>>></gray> <white>{message}</white>"
+local-chat-format: "<dark_gray>|<blue>L</blue>|</dark_gray> {prefix} <gold>{player}</gold> <gray>>>></gray> <white>{message}</white>"

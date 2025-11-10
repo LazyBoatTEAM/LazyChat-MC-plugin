@@ -4,7 +4,7 @@
   <groupId>lazy.dev</groupId>
   <artifactId>lazychat</artifactId>
   <name>lazychat</name>
-  <version>0.1</version>
+  <version>0.3</version>
   <build>
     <defaultGoal>clean package</defaultGoal>
     <resources>
@@ -44,9 +44,15 @@
   </repositories>
   <dependencies>
     <dependency>
+      <groupId>net.luckperms</groupId>
+      <artifactId>api</artifactId>
+      <version>5.4</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
       <groupId>io.papermc.paper</groupId>
       <artifactId>paper-api</artifactId>
-      <version>1.21-R0.1-SNAPSHOT</version>
+      <version>1.21.8-R0.1-SNAPSHOT</version>
       <scope>provided</scope>
     </dependency>
   </dependencies>

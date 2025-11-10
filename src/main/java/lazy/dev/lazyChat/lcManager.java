@@ -7,13 +7,13 @@ import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 
-public class lazyChatSystem implements Listener {
+public class lcManager implements Listener {
     private final LazyChat plugin;
-    private final ChatManager chatManager;
+    private final ChatUtility chatUtility;
 
-    public lazyChatSystem(LazyChat plugin) {
+    public lcManager(LazyChat plugin) {
         this.plugin = plugin;
-        this.chatManager = plugin.getChatManager();
+        this.chatUtility = plugin.getChatManager();
     }
 
     @EventHandler
@@ -22,8 +22,8 @@ public class lazyChatSystem implements Listener {
         Component originalMessage = event.message();
         String plainText = PlainTextComponentSerializer.plainText().serialize(originalMessage);
 
-        boolean isGlobal = chatManager.isGlobalChat(plainText);
-        String messageContent = chatManager.getMessageContent(plainText);
+        boolean isGlobal = chatUtility.isGlobalChat(plainText);
+        String messageContent = chatUtility.getMessageContent(plainText);
 
         event.setCancelled(true);
 
@@ -35,8 +35,8 @@ public class lazyChatSystem implements Listener {
     }
 
     private void sendLocalMessage(Player sender, String message) {
-        Component formattedMessage = chatManager.formatMessage(sender, message, false);
-        int radius = chatManager.getLocalChatRadius();
+        Component formattedMessage = chatUtility.formatMessage(sender, message, false);
+        int radius = chatUtility.getLocalChatRadius();
 
         for (Player onlinePlayer : sender.getServer().getOnlinePlayers()) {
             if (onlinePlayer.getWorld().equals(sender.getWorld())) {
@@ -47,19 +47,19 @@ public class lazyChatSystem implements Listener {
             }
         }
 
-        if (chatManager.isConsoleLoggingEnabled()) {
+        if (chatUtility.isConsoleLoggingEnabled()) {
             sender.getServer().getConsoleSender().sendMessage(formattedMessage);
         }
     }
 
     private void sendGlobalMessage(Player sender, String message) {
-        Component formattedMessage = chatManager.formatMessage(sender, message, true);
+        Component formattedMessage = chatUtility.formatMessage(sender, message, true);
 
         for (Player onlinePlayer : sender.getServer().getOnlinePlayers()) {
             onlinePlayer.sendMessage(formattedMessage);
         }
 
-        if (chatManager.isConsoleLoggingEnabled()) {
+        if (chatUtility.isConsoleLoggingEnabled()) {
             sender.getServer().getConsoleSender().sendMessage(formattedMessage);
         }
     }

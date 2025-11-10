@@ -7,10 +7,10 @@ import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.jetbrains.annotations.NotNull;
 
-public class lchatreload implements CommandExecutor {
+public class LazyChatCommand implements CommandExecutor {
     private final LazyChat plugin;
 
-    public lchatreload(LazyChat plugin) {
+    public LazyChatCommand(LazyChat plugin) {
         this.plugin = plugin;
     }
 

@@ -3,9 +3,9 @@ This is just another lazy-plugin which can made your chat experience better
 ![img.png](img.png)
 
 ## Additional information
-##### Also available on SpigotMC - [LazyChat on SpigotMC](https://www.spigotmc.org/resources/lazychat.130059/)
+##### Also, available on SpigotMC - [LazyChat on SpigotMC](https://www.spigotmc.org/resources/lazychat.130059/)
 ##### REQUIRES COMMANDS API - [CommandsAPI 11.0.0](https://github.com/CommandAPI/CommandAPI/releases/tag/11.0.0)
-##### LATEST AT THIS MOMENT PUBLIC VERSION - v0.3
+##### LATEST AT THIS MOMENT PUBLIC VERSION - v0.6
 
 ## What this plugin adds?
 Only fully configurable chat-system with formating through MiniMessage
@@ -27,7 +27,7 @@ Only fully configurable chat-system with formating through MiniMessage
 
 
 
-## Do it support LuckyPerms prefixes?
+## Do is it support LuckyPerms prefixes?
 ### I think... I do it soon.
 
 ## What is "MiniMessage"?

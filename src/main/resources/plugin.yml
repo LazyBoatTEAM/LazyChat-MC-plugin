@@ -1,13 +1,13 @@
 name: LazyChat
-version: '0.4'
+version: '0.6'
 main: lazy.dev.lazyChat.LazyChat
 api-version: '1.21'
 authors: [ LazyCato0o ]
 description: Plugin which improves chat system and adds support MiniMessage formating
 website: https://github.com/LazyCat0/LazyChat-MC-plugin
 permissions:
-  l-chat.reload:
-    description: Allow to reload LazyChat config
+  l-chat.*:
+    description: Allow use "lc" commands
     default: op
 
 depend: [CommandAPI]

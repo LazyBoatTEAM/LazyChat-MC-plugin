@@ -4,6 +4,7 @@ import lazy.dev.lazyChat.LazyChat;
 import lazy.dev.lazyChat.LazyChatConfig;
 import net.kyori.adventure.text.Component;
 import net.kyori.adventure.text.minimessage.MiniMessage;
+import net.luckperms.api.LuckPerms;
 import org.bukkit.entity.Player;
 
 public class ChatUtility {
@@ -22,7 +23,6 @@ public class ChatUtility {
         String formatTemplate = isGlobal ?
                 config.getGlobalChatFormat() :
                 config.getLocalChatFormat();
-
 
         String formatted = formatTemplate
                 .replace("{player}", player.getName())

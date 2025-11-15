@@ -1,13 +1,16 @@
-<img src="images_GitHub/LazyChatBanner.png" alt="LazyChat banner" style="display: block; margin-left: auto; margin-right: auto;">
+<img src="images_GitHub/LazyChatBanner.png" alt="LazyChat banner" height="58" width="450">
+
 This is just another lazy-plugin which can made your chat experience better
 <img src="images_GitHub/img.png" alt="img" width="600" height="52">
 
-## Additional information
+<img src="images_GitHub/infoBanner_LC.png" alt="img2">
+
 ##### Also, available on SpigotMC - [LazyChat on SpigotMC](https://www.spigotmc.org/resources/lazychat.130059/)
 ##### REQUIRES COMMANDS API - [CommandsAPI 11.0.0](https://github.com/CommandAPI/CommandAPI/releases/tag/11.0.0)
 ##### LATEST AT THIS MOMENT PUBLIC VERSION - v0.6
 
-## What this plugin adds?
+<img src="images_GitHub/WhatsPluginAdds_LC.png" alt="Whats Plugin Adds">
+
 Only fully configurable chat-system with formating through MiniMessage
 
     # Local chat radius

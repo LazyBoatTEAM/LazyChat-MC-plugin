@@ -1,6 +1,6 @@
-<img src="images_github/LazyChatBanner.png" alt="LazyChat banner" height="64" width="248">
+<img src="images_GitHub/LazyChatBanner.png" alt="LazyChat banner" style="display: block; margin: auto;">
 This is just another lazy-plugin which can made your chat experience better
-<img src="images_github/img.png" alt="img">
+<img src="images_GitHub/img.png" alt="img" width="600" height="52">
 
 ## Additional information
 ##### Also, available on SpigotMC - [LazyChat on SpigotMC](https://www.spigotmc.org/resources/lazychat.130059/)

@@ -1,4 +1,4 @@
-<img src="images_github/LazyChatBanner.png" alt="LazyChat banner">
+<img src="images_github/LazyChatBanner.png" alt="LazyChat banner" height="64" width="248">
 This is just another lazy-plugin which can made your chat experience better
 <img src="images_github/img.png" alt="img">
 

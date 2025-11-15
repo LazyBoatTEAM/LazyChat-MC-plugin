@@ -1,6 +1,6 @@
-# <img src="img_1.png" alt="img_1"> LazyChat
+<img src="images_github/LazyChatBanner.png" alt="LazyChat banner">
 This is just another lazy-plugin which can made your chat experience better
-![img.png](img.png)
+<img src="images_github/img.png" alt="img">
 
 ## Additional information
 ##### Also, available on SpigotMC - [LazyChat on SpigotMC](https://www.spigotmc.org/resources/lazychat.130059/)

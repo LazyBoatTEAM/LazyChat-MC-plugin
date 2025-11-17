@@ -31,7 +31,7 @@ Only fully configurable chat-system with formating through MiniMessage
 
 
 ## Do is it support LuckyPerms prefixes?
-### I think... I do it soon.
+### I think... I we it soon.
 
 ## What is "MiniMessage"?
 ### This is a formating api which provided from Adventure api (Or just Paper feature)
@@ -43,4 +43,4 @@ Only fully configurable chat-system with formating through MiniMessage
 `just go to project folder and open it with your command-line, after type "mvn package"`
 
 
-## In some moments I use AI for make this chat-plugin, because I'm Junior and newbie in plugin-develop.
+#### BY [LAZYBOAT TEAM](https://github.com/lazyboatTEAM/)

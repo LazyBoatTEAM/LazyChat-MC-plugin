@@ -5,18 +5,27 @@ import lazy.dev.lazyChat.LazyChatConfig;
 import net.kyori.adventure.text.Component;
 import net.kyori.adventure.text.minimessage.MiniMessage;
 import net.luckperms.api.LuckPerms;
+import net.luckperms.api.cacheddata.CachedMetaData;
+import net.luckperms.api.platform.PlayerAdapter;
 import org.bukkit.entity.Player;
 
 public class ChatUtility {
     private final LazyChatConfig config;
+    private final LuckPerms lp;
 
-
-    public ChatUtility(LazyChat plugin) {
+    public ChatUtility(LazyChat plugin, LuckPerms lp) {
         this.config = new LazyChatConfig(plugin);
+        this.lp = lp;
     }
 
     public void reloadConfig() {
         this.config.reload();
+    }
+    public String prefix(Player player) {
+
+        PlayerAdapter<Player> adapter = lp.getPlayerAdapter(Player.class);
+        CachedMetaData metaData = adapter.getMetaData(player);
+        return metaData.getPrefix();
     }
 
     public Component formatMessage(Player player, String message, boolean isGlobal) {
@@ -27,7 +36,7 @@ public class ChatUtility {
         String formatted = formatTemplate
                 .replace("{player}", player.getName())
                 .replace("{message}", message)
-                ;
+                .replace("{prefix}", prefix(player));
 
         return MiniMessage.miniMessage().deserialize(formatted);
     }

@@ -6,7 +6,7 @@
 
     <groupId>lazy.dev</groupId>
     <artifactId>lazychat</artifactId>
-    <version>0.6</version>
+    <version>0.8BETA</version>
     <packaging>jar</packaging>
 
     <name>lazychat</name>

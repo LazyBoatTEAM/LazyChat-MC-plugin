@@ -31,7 +31,7 @@ Only fully configurable chat-system with formating through MiniMessage
 
 
 ## Do is it support LuckyPerms prefixes?
-### I think... I we it soon.
+### I think... I we add it soon.
 
 ## What is "MiniMessage"?
 ### This is a formating api which provided from Adventure api (Or just Paper feature)

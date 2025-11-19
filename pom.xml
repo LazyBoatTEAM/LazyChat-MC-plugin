@@ -110,6 +110,10 @@
             <id>papermc-repo</id>
             <url>https://repo.papermc.io/repository/maven-public/</url>
         </repository>
+        <repository>
+            <id>luckperms-repo</id>
+            <url>https://repo.lucko.me/</url>
+        </repository>
     </repositories>
 
     <dependencies>
@@ -119,12 +123,7 @@
             <version>5.4</version>
             <scope>provided</scope>
         </dependency>
-        <dependency>
-            <groupId>dev.jorel</groupId>
-            <artifactId>commandapi-paper-core</artifactId>
-            <version>11.0.0</version>
-            <scope>provided</scope>
-        </dependency>
+
         <dependency>
             <groupId>net.kyori</groupId>
             <artifactId>adventure-text-minimessage</artifactId>

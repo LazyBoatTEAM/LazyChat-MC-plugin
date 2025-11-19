@@ -22,10 +22,20 @@ public class ChatUtility {
         this.config.reload();
     }
     public String prefix(Player player) {
-
+        if (lp == null) {
+            return "";
+        }
         PlayerAdapter<Player> adapter = lp.getPlayerAdapter(Player.class);
         CachedMetaData metaData = adapter.getMetaData(player);
-        return metaData.getPrefix();
+        String prefix = metaData.getPrefix();
+        return prefix != null ? prefix : "";
+    }
+
+    private String processMiniMessage(String text) {
+        if (text == null || text.isEmpty()) {
+            return "";
+        }
+        return MiniMessage.miniMessage().serialize(MiniMessage.miniMessage().deserialize(text));
     }
 
     public Component formatMessage(Player player, String message, boolean isGlobal) {

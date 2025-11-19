@@ -7,7 +7,7 @@ global-chat-prefix: "!"
 # log messages to console (by default on true)
 enable-console-logging: true
 
-# Messages examples. Placeholders: {player} - player-nickname, {message} - message, {prefix} - prefix from LuckyPerms (AT THIS MOMENT NOT SUPPORTED)
+# Messages examples. Placeholders: {player} - player-nickname, {message} - message, {prefix} - prefix from LuckPerms
 # Example for global message.
 global-chat-format: "<dark_gray>|<green>G</green>|</dark_gray> {prefix} <gold>{player}</gold> <gray>>>></gray> <white>{message}</white>"
 # Example for local message.

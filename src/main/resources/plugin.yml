@@ -5,9 +5,13 @@ api-version: '1.21'
 authors: [ LazyCato0o ]
 description: Plugin which improves chat system and adds support MiniMessage formating
 website: https://github.com/LazyCat0/LazyChat-MC-plugin
+commands:
+  lazy-chat:
+    description: LazyChat command
+    aliases: [l-chat, lc]
+    permission: l-chat.*
 permissions:
   l-chat.*:
     description: Allow use "lc" commands
     default: op
-
-depend: [CommandAPI]
+softdepend: [LuckPerms]

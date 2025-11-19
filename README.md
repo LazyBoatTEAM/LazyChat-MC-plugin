@@ -5,7 +5,8 @@ This is just another lazy-plugin which can made your chat experience better
 
 <img src="images_GitHub/infoBanner_LC.png" alt="img2">
 
-##### Also, available on SpigotMC - [LazyChat on SpigotMC](https://www.spigotmc.org/resources/lazychat.130059/) and [on modrinth](https://modrinth.com/plugin/lazychat)
+##### Available [on modrinth](https://modrinth.com/plugin/lazychat)
+##### Also, available on SpigotMC - [LazyChat on SpigotMC](https://www.spigotmc.org/resources/lazychat.130059/)
 ##### REQUIRES COMMANDS API - [CommandsAPI 11.0.0](https://github.com/CommandAPI/CommandAPI/releases/tag/11.0.0)
 ##### LATEST AT THIS MOMENT PUBLIC VERSION - v0.6
 

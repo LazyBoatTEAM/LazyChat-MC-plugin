@@ -5,10 +5,9 @@ This is just another lazy-plugin which can made your chat experience better
 
 <img src="images_GitHub/infoBanner_LC.png" alt="img2">
 
-##### Available [on modrinth](https://modrinth.com/plugin/lazychat)
-##### Also, available on SpigotMC - [LazyChat on SpigotMC](https://www.spigotmc.org/resources/lazychat.130059/)
-##### REQUIRES COMMANDS API - [CommandsAPI 11.0.0](https://github.com/CommandAPI/CommandAPI/releases/tag/11.0.0)
-##### LATEST AT THIS MOMENT PUBLIC VERSION - v0.6
+**Available [on modrinth](https://modrinth.com/plugin/lazychat)**
+**Also, available on SpigotMC - [LazyChat on SpigotMC](https://www.spigotmc.org/resources/lazychat.130059/)**
+**LATEST AT THIS MOMENT PUBLIC VERSION - v0.9**
 
 <img src="images_GitHub/WhatsPluginAdds_LC.png" alt="Whats Plugin Adds">
 
@@ -32,10 +31,12 @@ Only fully configurable chat-system with formating through MiniMessage
 
 
 ## Do is it support LuckyPerms prefixes?
-### I think... I we add it soon.
+**Yes! Special thanks to [kirikws](https://github.com/orgs/LazyBoatTEAM/people/kirikws)**
+
+**For change prefix color you need use this command - `/lp user <player> meta setprefix "<red>[example_prefix]</red> "`**
 
 ## What is "MiniMessage"?
-### This is a formating api which provided from Adventure api (Or just Paper feature)
+**This is a formating api which provided from Adventure api (Or just Paper feature)**
 ## How to build it?
 
 ### In Inteljl IDEA
